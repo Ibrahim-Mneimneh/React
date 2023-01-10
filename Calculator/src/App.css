@@ -1,0 +1,54 @@
+.app {
+  display: flex;
+  background-color: rgb(28, 28, 28);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.box {
+  position: relative;
+  background-color: black;
+  border-radius: 5px;
+  width: 500px;
+  height: 565px;
+  box-shadow: 3px, 4px, 4px, rgba(0, 0, 0, 0.3);
+}
+.box-buttons {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+}
+span {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: xx-large;
+  padding-bottom: 20px;
+}
+.key-buttons {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.clear {
+  grid-column: 1/3;
+}
+.equal {
+  grid-column: 3/5;
+}
+button {
+  background-color: rgb(208, 137, 5);
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+button:hover {
+  background-color: rgb(158, 104, 3);
+}
+.key-buttons:hover {
+  background-color: rgb(54, 54, 54);
+}

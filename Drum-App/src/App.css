@@ -1,0 +1,85 @@
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: lightslategrey;
+}
+
+.drum {
+  background-color: rgb(30, 29, 29);
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.toggle-button {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  border-radius: 15px;
+  font-size: xx-large;
+  padding: 10px;
+  color: white;
+}
+.volume-text {
+  position: absolute;
+  top: 400px;
+  left: 355px;
+  width: 300px;
+  color: white;
+  font-size: larger;
+}
+.volume {
+  position: absolute;
+  top: 450px;
+  left: 355px;
+  width: 300px;
+}
+
+.drum-pad {
+  position: relative;
+  left: 553px;
+  background-color: gray;
+  border-radius: 15px;
+  font-size: xx-large;
+  width: 75px;
+  height: 75px;
+  color: white;
+}
+.drum-pad2 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  right: 475px;
+  background-color: gray;
+  border-radius: 15px;
+  font-size: xx-large;
+  padding: 20px;
+  color: white;
+}
+.drum-pad3 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  right: 399px;
+  background-color: gray;
+  border-radius: 15px;
+  font-size: xx-large;
+  padding: 20px;
+  color: white;
+}
+.drum-pad:hover {
+  background-color: black;
+}
+.drum-pad2:hover {
+  background-color: black;
+}
+.drum-pad3:hover {
+  background-color: black;
+}

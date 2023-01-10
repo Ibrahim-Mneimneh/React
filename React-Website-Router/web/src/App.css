@@ -1,0 +1,81 @@
+.page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100vh;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.unsplash.com/photo-1530569673472-307dc017a82d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJsdWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  grid-column: 1/4;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+img {
+  width: 50px;
+  height: 45px;
+  padding: 45px;
+}
+input {
+  border-radius: 1em;
+  padding: 0.75em 1em;
+  background-color: rgb(235, 235, 235);
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 500px;
+  height: 30px;
+  margin: 10px;
+}
+#submit {
+  margin-top: 20px;
+  padding: 0.5em 1em;
+  border-radius: 16px;
+  background-color: rgb(129, 161, 222);
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: white;
+  width: 150px;
+  height: 50px;
+}
+#submit:hover {
+  background-color: rgb(97, 131, 194);
+}
+#sign-up:hover {
+  background-color: rgb(97, 131, 194);
+}
+p {
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: x-large;
+  line-height: 35px;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+#sign-up {
+  margin-top: 20px;
+  padding: 0.5em 1em;
+  border-radius: 16px;
+  background-color: rgb(129, 161, 222);
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 50px;
+}

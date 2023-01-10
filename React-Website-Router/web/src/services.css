@@ -1,0 +1,69 @@
+.page2 {
+  position: relative;
+  background-image: url(https://images.hdqwalls.com/wallpapers/snow-mountains-landscape-4k-q5.jpg);
+  background-size: 100% 100%;
+}
+.navbar2 {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+}
+#logo2 {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+ul {
+  padding-left: 1050px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+li {
+  padding-left: 30px;
+  padding-top: 10px;
+  color: white;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+li:hover {
+  color: rgb(110, 110, 215);
+  cursor: pointer;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  color: antiquewhite;
+}
+#services-title {
+  font-size: 60px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+.services-op {
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+.op-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin: 50px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+  background-color: white;
+}
+.op {
+  font-family: Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
